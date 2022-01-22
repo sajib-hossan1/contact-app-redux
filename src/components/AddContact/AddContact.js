@@ -10,6 +10,7 @@ const AddContact = () => {
     const [number, setNumber] = useState("");
 
     const contacts = useSelector(state => state);
+    
     const dispatch = useDispatch();
 
     const navigation = useNavigate();
